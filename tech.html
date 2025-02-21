@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Add-to-cart</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="banner">YAY! It's BOGO</div>
+      <div class="box" onclick="toggleBox(this, 1)">
+        <p>1 Unit <span class="discount">10% Off</span> - $10.00 USD</p>
+        <div class="details"></div>
+      </div>
+      <div class="box" onclick="toggleBox(this, 2)">
+        <p>2 Units <span class="discount">20% Off</span> - $18.00 USD</p>
+        <div class="most-popular">MOST POPULAR</div>
+        <div class="details"></div>
+      </div>
+      <div class="box" onclick="toggleBox(this, 3)">
+        <p>3 Units <span class="discount">30% Off</span> - $24.00 USD</p>
+        <div class="details"></div>
+      </div>
+      <div class="free-delivery">Free Delivery</div>
+      <button class="add-to-cart">+ Add to Cart</button>
+    </div>
+  </body>
+  <script src="script.js"></script>
+</html>
